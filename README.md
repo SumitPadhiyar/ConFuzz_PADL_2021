@@ -1,5 +1,5 @@
 # PADL_2021
-This is an anonymous repository containing ConFuzz and experimental subjects used in the evaluation of the paper titled *ConFuzz: Coverage-guided Property Fuzzing for Event-driven Programs*
+This is an repository containing ConFuzz and experimental subjects used in the evaluation of the paper titled *ConFuzz: Coverage-guided Property Fuzzing for Event-driven Programs*
 
 # Dependencies
 Following dependencies need to be installed to run ConFuzz:
@@ -17,7 +17,7 @@ Follow the below steps to execute a benchmark:
 
 1. cd into the benchmark directory i.e. `evaluation_subjects/benchmarks/B1`
 1. Each benchmark can be executed under three modes:
-   1. To execute under *ConFuzz* run `make`
+   1. To execute under *ConFuzz*, run `make`
    1. To execute under *Node.Fz*, run `make run_node_fz`
    1. To execute under *Stress testing*, `make run_stress`
 1. To reproduce crash, execute the test binary with crash file under `op/crashes` i.e `./test.out op/crashes/id:000000,sig:06,src:000047,op:havoc,rep:4`
