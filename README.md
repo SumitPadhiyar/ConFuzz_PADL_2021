@@ -1,4 +1,4 @@
-# PADL_2021
+# ConFuzz_PADL_2021
 This is an repository containing ConFuzz and experimental subjects used in the evaluation of the paper titled *ConFuzz: Coverage-guided Property Fuzzing for Event-driven Programs*
 
 # Dependencies
